@@ -15,6 +15,7 @@ class TextFileIO{
           System.out.println("Error - Cannot write to file " + fileName);
       }
   }
+  
   public static void main(String [] args){
     // Create some data
     ArrayList<String> items = new ArrayList<String>();

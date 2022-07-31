@@ -34,10 +34,10 @@ class TextFileIO{
   public static void main(String [] args){
     // Create some data
     ArrayList<String> items = new ArrayList<String>();
-   // items.add("Bread");
-   // items.add("Milk");
-   // items.add("Pasta");
-   // items.add("Butter");
+    items.add("Bread");
+    items.add("Milk");
+    items.add("Pasta");
+    items.add("Butter");
 
     readFile("shopping.txt", items);
 
@@ -46,11 +46,7 @@ class TextFileIO{
         System.out.println(items.get(i));
     }
   // Output to file
-  // writeFile("shopping.txt", items);
+  writeFile("shopping.txt", items);
 
   }
 }
-
-// Java Text File I/O Introduction
-// Link do Video
-// https://www.youtube.com/watch?v=yO_ctH4mEk4&ab_channel=StephenSheridan
